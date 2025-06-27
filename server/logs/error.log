@@ -1,0 +1,26 @@
+[2025-06-27T08:33:38.702Z] ERROR: GET /favicon.ico | Status: 404 | Duration: 59ms | IP: ::1
+[2025-06-27T08:33:38.932Z] ERROR: GET /manifest.json | Status: 404 | Duration: 6ms | IP: ::1
+[2025-06-27T08:34:07.461Z] ERROR: GET /manifest.json | Status: 404 | Duration: 7ms | IP: ::1
+[2025-06-27T08:35:59.575Z] ERROR: GET /manifest.json | Status: 404 | Duration: 23ms | IP: ::1
+[2025-06-27T09:07:30.229Z] ERROR: GET /manifest.json | Status: 404 | Duration: 118ms | IP: ::1
+[2025-06-27T09:07:30.247Z] ERROR: GET /favicon.ico | Status: 404 | Duration: 457ms | IP: ::1
+[2025-06-27T09:07:32.519Z] ERROR: GET /manifest.json | Status: 404 | Duration: 10ms | IP: ::1
+[2025-06-27T09:25:05.245Z] ERROR: GET /manifest.json | Status: 404 | Duration: 67ms | IP: ::1 
+[2025-06-27T09:25:05.249Z] ERROR: GET /favicon.ico | Status: 404 | Duration: 63ms | IP: ::1 
+[2025-06-27T09:27:58.761Z] ERROR: Error during URL redirect | Error: formatClickData is not a function | Stack: TypeError: formatClickData is not a function
+    at redirectToOriginal (C:\Users\91879\OneDrive\Desktop\Afformed\server\controllers\redirectController.js:55:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-06-27T09:27:58.767Z] ERROR: Unhandled error occurred | Error: formatClickData is not a function | Stack: TypeError: formatClickData is not a function
+    at redirectToOriginal (C:\Users\91879\OneDrive\Desktop\Afformed\server\controllers\redirectController.js:55:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-06-27T09:27:58.770Z] ERROR: GET /ORTtcXfk | Status: 500 | Duration: 21ms | IP: ::1 
+[2025-06-27T09:27:59.028Z] ERROR: GET /favicon.ico | Status: 404 | Duration: 9ms | IP: ::1 
+[2025-06-27T09:28:28.347Z] ERROR: Error during URL redirect | Error: formatClickData is not a function | Stack: TypeError: formatClickData is not a function
+    at redirectToOriginal (C:\Users\91879\OneDrive\Desktop\Afformed\server\controllers\redirectController.js:55:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-06-27T09:28:28.348Z] ERROR: Unhandled error occurred | Error: formatClickData is not a function | Stack: TypeError: formatClickData is not a function
+    at redirectToOriginal (C:\Users\91879\OneDrive\Desktop\Afformed\server\controllers\redirectController.js:55:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-06-27T09:28:28.352Z] ERROR: GET /VkZqzT0P | Status: 500 | Duration: 13ms | IP: ::1 
+[2025-06-27T09:51:27.699Z] ERROR: GET /favicon.ico | Status: 404 | Duration: 111ms | IP: ::1 
+[2025-06-27T09:51:27.804Z] ERROR: GET /manifest.json | Status: 404 | Duration: 18ms | IP: ::1 

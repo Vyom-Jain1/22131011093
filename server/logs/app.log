@@ -1,0 +1,122 @@
+[2025-06-27T08:33:38.644Z] REQUEST: GET /favicon.ico | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/
+[2025-06-27T08:33:38.702Z] RESPONSE: GET /favicon.ico | Status: 404 | Duration: 59ms | IP: ::1
+[2025-06-27T08:33:38.926Z] REQUEST: GET /manifest.json | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/
+[2025-06-27T08:33:38.932Z] RESPONSE: GET /manifest.json | Status: 404 | Duration: 6ms | IP: ::1
+[2025-06-27T08:34:07.454Z] REQUEST: GET /manifest.json | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/
+[2025-06-27T08:34:07.461Z] RESPONSE: GET /manifest.json | Status: 404 | Duration: 7ms | IP: ::1
+[2025-06-27T08:35:59.552Z] REQUEST: GET /manifest.json | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats
+[2025-06-27T08:35:59.575Z] RESPONSE: GET /manifest.json | Status: 404 | Duration: 23ms | IP: ::1
+[2025-06-27T09:07:29.815Z] REQUEST: GET /favicon.ico | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats
+[2025-06-27T09:07:30.111Z] REQUEST: GET /manifest.json | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats
+[2025-06-27T09:07:30.229Z] RESPONSE: GET /manifest.json | Status: 404 | Duration: 118ms | IP: ::1
+[2025-06-27T09:07:30.247Z] RESPONSE: GET /favicon.ico | Status: 404 | Duration: 457ms | IP: ::1
+[2025-06-27T09:07:32.508Z] REQUEST: GET /manifest.json | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/
+[2025-06-27T09:07:32.518Z] RESPONSE: GET /manifest.json | Status: 404 | Duration: 10ms | IP: ::1
+[2025-06-27T09:07:55.343Z] REQUEST: POST /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/
+[2025-06-27T09:07:55.727Z] INFO: Short URL created successfully {"shortCode":"McnmV3iR","originalUrl":"https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/","expiresAt":"2025-06-27T09:37:55.381Z"}
+[2025-06-27T09:07:55.742Z] RESPONSE: POST /api/shorturls | Status: 201 | Duration: 400ms | IP: ::1
+[2025-06-27T09:08:03.892Z] REQUEST: GET /McnmV3iR | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: direct
+[2025-06-27T09:08:04.128Z] INFO: URL redirect successful {"shortCode":"McnmV3iR","originalUrl":"https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/","totalClicks":2}
+[2025-06-27T09:08:04.136Z] RESPONSE: GET /McnmV3iR | Status: 302 | Duration: 244ms | IP: ::1
+[2025-06-27T09:08:37.388Z] REQUEST: POST /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/
+[2025-06-27T09:08:37.425Z] INFO: Short URL created successfully {"shortCode":"ORTtcXfk","originalUrl":"https://sci-hub.se/","expiresAt":"2025-06-27T09:38:37.406Z"}
+[2025-06-27T09:08:37.426Z] RESPONSE: POST /api/shorturls | Status: 201 | Duration: 38ms | IP: ::1
+[2025-06-27T09:25:05.177Z] REQUEST: GET /manifest.json | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/ 
+[2025-06-27T09:25:05.186Z] REQUEST: GET /favicon.ico | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/ 
+[2025-06-27T09:25:05.244Z] RESPONSE: GET /manifest.json | Status: 404 | Duration: 67ms | IP: ::1 
+[2025-06-27T09:25:05.249Z] RESPONSE: GET /favicon.ico | Status: 404 | Duration: 63ms | IP: ::1 
+[2025-06-27T09:26:12.713Z] REQUEST: GET /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:26:12.756Z] RESPONSE: GET /api/shorturls | Status: 200 | Duration: 44ms | IP: ::1 
+[2025-06-27T09:26:12.783Z] REQUEST: GET /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:26:12.793Z] RESPONSE: GET /api/shorturls | Status: 200 | Duration: 10ms | IP: ::1 
+[2025-06-27T09:26:13.352Z] REQUEST: GET /api/shorturls/ORTtcXfk | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:26:13.357Z] REQUEST: GET /api/shorturls/McnmV3iR | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:26:13.367Z] RESPONSE: GET /api/shorturls/ORTtcXfk | Status: 200 | Duration: 15ms | IP: ::1 
+[2025-06-27T09:26:13.384Z] RESPONSE: GET /api/shorturls/McnmV3iR | Status: 200 | Duration: 27ms | IP: ::1 
+[2025-06-27T09:26:13.597Z] REQUEST: GET /api/shorturls/ORTtcXfk | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:26:13.605Z] RESPONSE: GET /api/shorturls/ORTtcXfk | Status: 200 | Duration: 8ms | IP: ::1 
+[2025-06-27T09:26:13.691Z] REQUEST: GET /api/shorturls/McnmV3iR | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:26:13.699Z] RESPONSE: GET /api/shorturls/McnmV3iR | Status: 200 | Duration: 8ms | IP: ::1 
+[2025-06-27T09:27:58.748Z] REQUEST: GET /ORTtcXfk | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: direct 
+[2025-06-27T09:27:58.769Z] RESPONSE: GET /ORTtcXfk | Status: 500 | Duration: 21ms | IP: ::1 
+[2025-06-27T09:27:59.019Z] REQUEST: GET /favicon.ico | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: direct 
+[2025-06-27T09:27:59.028Z] RESPONSE: GET /favicon.ico | Status: 404 | Duration: 9ms | IP: ::1 
+[2025-06-27T09:28:22.908Z] REQUEST: POST /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/ 
+[2025-06-27T09:28:22.968Z] INFO: Short URL created {"shortCode":"VkZqzT0P","url":"https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"}
+[2025-06-27T09:28:22.970Z] RESPONSE: POST /api/shorturls | Status: 201 | Duration: 61ms | IP: ::1 
+[2025-06-27T09:28:28.339Z] REQUEST: GET /VkZqzT0P | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: direct 
+[2025-06-27T09:28:28.352Z] RESPONSE: GET /VkZqzT0P | Status: 500 | Duration: 13ms | IP: ::1 
+[2025-06-27T09:29:13.257Z] REQUEST: GET /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:29:13.289Z] RESPONSE: GET /api/shorturls | Status: 200 | Duration: 33ms | IP: ::1 
+[2025-06-27T09:29:13.318Z] REQUEST: GET /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:29:13.324Z] RESPONSE: GET /api/shorturls | Status: 200 | Duration: 6ms | IP: ::1 
+[2025-06-27T09:29:13.707Z] REQUEST: GET /api/shorturls/VkZqzT0P | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:29:13.712Z] REQUEST: GET /api/shorturls/ORTtcXfk | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:29:13.716Z] REQUEST: GET /api/shorturls/McnmV3iR | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:29:13.720Z] RESPONSE: GET /api/shorturls/VkZqzT0P | Status: 200 | Duration: 13ms | IP: ::1 
+[2025-06-27T09:29:13.735Z] RESPONSE: GET /api/shorturls/McnmV3iR | Status: 200 | Duration: 19ms | IP: ::1 
+[2025-06-27T09:29:13.737Z] RESPONSE: GET /api/shorturls/ORTtcXfk | Status: 200 | Duration: 25ms | IP: ::1 
+[2025-06-27T09:29:13.943Z] REQUEST: GET /api/shorturls/VkZqzT0P | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:29:13.949Z] RESPONSE: GET /api/shorturls/VkZqzT0P | Status: 200 | Duration: 6ms | IP: ::1 
+[2025-06-27T09:29:14.041Z] REQUEST: GET /api/shorturls/McnmV3iR | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:29:14.048Z] RESPONSE: GET /api/shorturls/McnmV3iR | Status: 200 | Duration: 8ms | IP: ::1 
+[2025-06-27T09:29:14.059Z] REQUEST: GET /api/shorturls/ORTtcXfk | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:29:14.066Z] RESPONSE: GET /api/shorturls/ORTtcXfk | Status: 200 | Duration: 7ms | IP: ::1 
+[2025-06-27T09:30:07.873Z] REQUEST: POST /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/ 
+[2025-06-27T09:30:08.046Z] INFO: Short URL created {"shortCode":"PkHZG8KQ","url":"https://app.yoodli.ai/home"}
+[2025-06-27T09:30:08.054Z] RESPONSE: POST /api/shorturls | Status: 201 | Duration: 185ms | IP: ::1 
+[2025-06-27T09:30:12.570Z] REQUEST: GET /PkHZG8KQ | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: direct 
+[2025-06-27T09:30:12.702Z] INFO: URL redirect successful {"shortCode":"PkHZG8KQ","originalUrl":"https://app.yoodli.ai/home","totalClicks":2}
+[2025-06-27T09:30:12.710Z] RESPONSE: GET /PkHZG8KQ | Status: 302 | Duration: 140ms | IP: ::1 
+[2025-06-27T09:30:24.825Z] REQUEST: GET /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:30:24.840Z] RESPONSE: GET /api/shorturls | Status: 200 | Duration: 15ms | IP: ::1 
+[2025-06-27T09:30:25.095Z] REQUEST: GET /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:30:25.104Z] RESPONSE: GET /api/shorturls | Status: 200 | Duration: 9ms | IP: ::1 
+[2025-06-27T09:30:25.195Z] REQUEST: GET /api/shorturls/PkHZG8KQ | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:30:25.221Z] RESPONSE: GET /api/shorturls/PkHZG8KQ | Status: 200 | Duration: 27ms | IP: ::1 
+[2025-06-27T09:30:25.482Z] REQUEST: GET /api/shorturls/VkZqzT0P | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:30:25.488Z] REQUEST: GET /api/shorturls/ORTtcXfk | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:30:25.494Z] REQUEST: GET /api/shorturls/McnmV3iR | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:30:25.506Z] REQUEST: GET /api/shorturls/PkHZG8KQ | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:30:25.513Z] RESPONSE: GET /api/shorturls/VkZqzT0P | Status: 200 | Duration: 31ms | IP: ::1 
+[2025-06-27T09:30:25.527Z] RESPONSE: GET /api/shorturls/PkHZG8KQ | Status: 200 | Duration: 21ms | IP: ::1 
+[2025-06-27T09:30:25.561Z] REQUEST: GET /api/shorturls/VkZqzT0P | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:30:25.569Z] RESPONSE: GET /api/shorturls/ORTtcXfk | Status: 200 | Duration: 81ms | IP: ::1 
+[2025-06-27T09:30:25.576Z] RESPONSE: GET /api/shorturls/McnmV3iR | Status: 200 | Duration: 82ms | IP: ::1 
+[2025-06-27T09:30:25.585Z] RESPONSE: GET /api/shorturls/VkZqzT0P | Status: 200 | Duration: 24ms | IP: ::1 
+[2025-06-27T09:30:25.841Z] REQUEST: GET /api/shorturls/ORTtcXfk | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:30:25.848Z] RESPONSE: GET /api/shorturls/ORTtcXfk | Status: 200 | Duration: 7ms | IP: ::1 
+[2025-06-27T09:30:25.888Z] REQUEST: GET /api/shorturls/McnmV3iR | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3000/stats 
+[2025-06-27T09:30:25.894Z] RESPONSE: GET /api/shorturls/McnmV3iR | Status: 200 | Duration: 6ms | IP: ::1 
+[2025-06-27T09:51:27.589Z] REQUEST: GET /favicon.ico | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/ 
+[2025-06-27T09:51:27.698Z] RESPONSE: GET /favicon.ico | Status: 404 | Duration: 111ms | IP: ::1 
+[2025-06-27T09:51:27.785Z] REQUEST: GET /manifest.json | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/ 
+[2025-06-27T09:51:27.803Z] RESPONSE: GET /manifest.json | Status: 404 | Duration: 18ms | IP: ::1 
+[2025-06-27T09:52:03.066Z] REQUEST: POST /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/ 
+[2025-06-27T09:52:03.153Z] INFO: Short URL created {"shortCode":"tnc6gFGU","url":"https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"}
+[2025-06-27T09:52:03.155Z] RESPONSE: POST /api/shorturls | Status: 201 | Duration: 89ms | IP: ::1 
+[2025-06-27T09:52:09.298Z] REQUEST: GET /tnc6gFGU | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: direct 
+[2025-06-27T09:52:09.453Z] INFO: URL redirect successful {"shortCode":"tnc6gFGU","originalUrl":"https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/","totalClicks":2}
+[2025-06-27T09:52:09.472Z] RESPONSE: GET /tnc6gFGU | Status: 302 | Duration: 173ms | IP: ::1 
+[2025-06-27T09:52:21.048Z] REQUEST: GET /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/stats 
+[2025-06-27T09:52:21.070Z] RESPONSE: GET /api/shorturls | Status: 200 | Duration: 22ms | IP: ::1 
+[2025-06-27T09:52:21.311Z] REQUEST: GET /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/stats 
+[2025-06-27T09:52:21.327Z] RESPONSE: GET /api/shorturls | Status: 200 | Duration: 16ms | IP: ::1 
+[2025-06-27T09:52:21.404Z] REQUEST: GET /api/shorturls/tnc6gFGU | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/stats 
+[2025-06-27T09:52:21.414Z] RESPONSE: GET /api/shorturls/tnc6gFGU | Status: 200 | Duration: 10ms | IP: ::1 
+[2025-06-27T09:52:21.719Z] REQUEST: GET /api/shorturls/PkHZG8KQ | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/stats 
+[2025-06-27T09:52:21.727Z] REQUEST: GET /api/shorturls/VkZqzT0P | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/stats 
+[2025-06-27T09:52:21.736Z] REQUEST: GET /api/shorturls/tnc6gFGU | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/stats 
+[2025-06-27T09:52:21.746Z] RESPONSE: GET /api/shorturls/PkHZG8KQ | Status: 200 | Duration: 27ms | IP: ::1 
+[2025-06-27T09:52:21.770Z] REQUEST: GET /api/shorturls/PkHZG8KQ | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/stats 
+[2025-06-27T09:52:21.779Z] RESPONSE: GET /api/shorturls/PkHZG8KQ | Status: 200 | Duration: 9ms | IP: ::1 
+[2025-06-27T09:52:21.794Z] RESPONSE: GET /api/shorturls/VkZqzT0P | Status: 200 | Duration: 67ms | IP: ::1 
+[2025-06-27T09:52:21.805Z] RESPONSE: GET /api/shorturls/tnc6gFGU | Status: 200 | Duration: 69ms | IP: ::1 
+[2025-06-27T09:52:22.124Z] REQUEST: GET /api/shorturls/VkZqzT0P | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/stats 
+[2025-06-27T09:52:22.131Z] RESPONSE: GET /api/shorturls/VkZqzT0P | Status: 200 | Duration: 7ms | IP: ::1 
+[2025-06-27T09:52:43.888Z] REQUEST: POST /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: http://localhost:3001/ 
+[2025-06-27T09:52:43.907Z] INFO: Short URL created {"shortCode":"zG7i0tIh","url":"https://app.yoodli.ai/home"}
+[2025-06-27T09:52:43.908Z] RESPONSE: POST /api/shorturls | Status: 201 | Duration: 20ms | IP: ::1 
+[2025-06-27T09:52:48.846Z] REQUEST: GET /zG7i0tIh | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: direct 
+[2025-06-27T09:52:48.897Z] INFO: URL redirect successful {"shortCode":"zG7i0tIh","originalUrl":"https://app.yoodli.ai/home","totalClicks":2}
+[2025-06-27T09:52:48.905Z] RESPONSE: GET /zG7i0tIh | Status: 302 | Duration: 59ms | IP: ::1 

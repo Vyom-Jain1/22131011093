@@ -1,0 +1,35 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "A complete HTTP URL Shortener Microservice with React frontend",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "dev:full": "concurrently \"npm run dev\" \"npm run client\"",
+    "install:all": "npm install && cd client && npm install"
+  },
+  "keywords": [
+    "url-shortener",
+    "microservice",
+    "react",
+    "nodejs"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.10.0",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.5.0",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1"
+  }
+}

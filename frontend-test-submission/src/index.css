@@ -1,0 +1,29 @@
+/* Reset and base styles */
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Roboto", Arial, sans-serif;
+  background: #f7f9fb;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  body,
+  #root {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .MuiContainer-root {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+  .MuiCardContent-root {
+    padding: 12px !important;
+  }
+  .MuiTypography-h4,
+  .MuiTypography-h5 {
+    font-size: 1.3rem !important;
+  }
+}
