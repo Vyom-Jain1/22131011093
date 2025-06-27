@@ -1,58 +1,124 @@
-URL Shortener Frontend
-A modern, responsive React + Material UI frontend for a production-grade URL Shortener microservice. This client allows users to shorten up to 5 URLs at once, view stats, and interact with a Node.js/Express/MongoDB backend.
+# URL Shortener Frontend
 
-Features
-Shorten up to 5 URLs at once with optional custom shortcodes and expiry (1-1440 minutes)
-Client-side validation for URLs, codes, and expiry
-Copy-to-clipboard for generated short URLs
-Stats page: View click count, last click, geo (simulated), expiry, and original URL
-Responsive UI: Mobile-friendly, clean Material UI design
-React Router for navigation (Shorten, Stats)
-Axios for API requests
-No login/signup required
-Project Structure
+A modern React frontend for the URL Shortener microservice, built with Material-UI for a responsive and intuitive user experience.
+
+## Features
+
+- **URL Shortening**: Shorten up to 5 URLs concurrently with custom shortcodes
+- **Real-time Validation**: Client-side validation for URLs and custom shortcodes
+- **Copy to Clipboard**: One-click copying of shortened URLs
+- **Statistics Dashboard**: View all shortened URLs with click history and metadata
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Material-UI Components**: Modern, accessible UI components
+
+## Tech Stack
+
+- **React 18**: Modern React with hooks and functional components
+- **Material-UI (MUI)**: Component library for consistent design
+- **React Router**: Client-side routing
+- **Axios**: HTTP client for API communication
+
+## Project Structure
+
+```
 frontend-test-submission/
-├── public/                # Static assets and index.html
+├── public/
+│   └── index.html
 ├── src/
-│   ├── App.jsx            # Main app with routing
-│   ├── index.js           # Entry point, theme setup
-│   ├── index.css          # Global and responsive styles
-│   ├── ShortenPage.jsx    # Main URL shortener form/page
-│   └── components/
-│       └── StatsPage.jsx  # Stats lookup page
-├── package.json           # Dependencies and scripts
-├── .gitignore             # Ignored files
-└── README.md              # This file
-Getting Started
-Prerequisites
-Node.js (v16+ recommended)
-npm or yarn
-Backend URL Shortener API running (see backend folder)
-Installation
-Install dependencies:
+│   ├── components/
+│   │   ├── ShortenPage.js
+│   │   └── StatsPage.js
+│   ├── App.js
+│   ├── index.js
+│   └── theme.js
+├── package.json
+└── README.md
+```
 
-npm install
-# or
-yarn install
-Start the development server:
+## Setup Instructions
 
-npm start
-# or
-yarn start
-The app runs at http://localhost:3000 by default.
+### Prerequisites
 
-Note: The frontend proxies API requests to http://localhost:5000 (see package.json), matching the backend default.
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-Build for Production
-npm run build
-# or
-yarn build
-The optimized build will be in the build/ folder.
+### Installation
 
-Usage
-Shorten URLs: Enter up to 5 URLs, set expiry/custom code if desired, and click "Shorten". Copy the generated short URL.
-View Stats: Go to the Stats page, enter a short code, and view analytics.
-Environment Variables
-No custom .env is required for the frontend by default. To change the API proxy, edit the proxy field in package.json.
-License
-This project is for campus hiring evaluation and demo purposes
+1. Navigate to the frontend directory:
+
+   ```bash
+   cd frontend-test-submission
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+The application will be available at `http://localhost:3000`
+
+## Usage
+
+### Shortening URLs
+
+1. Navigate to the home page
+2. Enter a valid URL in the input field
+3. Optionally provide a custom shortcode (3-20 characters, alphanumeric)
+4. Optionally set an expiration date
+5. Click "Shorten URL" to generate the shortened link
+6. Use the copy button to copy the shortened URL to clipboard
+
+### Viewing Statistics
+
+1. Click on "View Statistics" in the navigation
+2. View all your shortened URLs in a table format
+3. See click counts, creation dates, and expiration dates
+4. View detailed click history for each URL
+
+## API Integration
+
+The frontend communicates with the backend API endpoints:
+
+- `POST /shorturls` - Create shortened URLs
+- `GET /shorturls/:shortcode` - Get URL statistics
+- `GET /:shortcode` - Redirect to original URL
+
+## Environment Configuration
+
+The frontend is configured to connect to the backend at `http://localhost:5000`. If your backend runs on a different port, update the API base URL in the components.
+
+## Development
+
+### Available Scripts
+
+- `npm start` - Start development server
+- `npm build` - Build for production
+- `npm test` - Run tests
+- `npm eject` - Eject from Create React App
+
+### Key Components
+
+- **ShortenPage**: Main URL shortening interface with form validation
+- **StatsPage**: Statistics dashboard showing all shortened URLs
+- **App**: Main application component with routing and theme setup
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Notes
+
+- The application includes simulated pre-authorized access
+- All API calls include proper error handling
+- The UI is optimized for both desktop and mobile usage
+- Material-UI theme provides consistent styling across components
+
