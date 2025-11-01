@@ -31,9 +31,13 @@ jobs:
         working-directory: ./client
         run: npm install
       
+      - name: Fix permissions
+        working-directory: ./client
+        run: chmod -R +x node_modules/.bin
+      
       - name: Build
         working-directory: ./client
-        run: npx react-scripts build
+        run: npm run build
         env:
           CI: false
       
