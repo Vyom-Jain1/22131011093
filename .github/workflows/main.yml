@@ -33,7 +33,7 @@ jobs:
       
       - name: Build
         working-directory: ./client
-        run: npm run build
+        run: npx react-scripts build
         env:
           CI: false
       
