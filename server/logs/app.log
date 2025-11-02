@@ -120,3 +120,19 @@
 [2025-06-27T09:52:48.846Z] REQUEST: GET /zG7i0tIh | IP: ::1 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Sa | Referrer: direct 
 [2025-06-27T09:52:48.897Z] INFO: URL redirect successful {"shortCode":"zG7i0tIh","originalUrl":"https://app.yoodli.ai/home","totalClicks":2}
 [2025-06-27T09:52:48.905Z] RESPONSE: GET /zG7i0tIh | Status: 302 | Duration: 59ms | IP: ::1 
+[2025-11-02T06:58:59.834Z] REQUEST: GET /22131011093/main.a215b0de1a0cc954978e.hot-update.json | IP: ::1 | UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0. | Referrer: http://localhost:3000/ 
+[2025-11-02T06:58:59.835Z] RESPONSE: GET /22131011093/main.a215b0de1a0cc954978e.hot-update.json | Status: 404 | Duration: 1ms | IP: ::1 
+[2025-11-02T06:59:00.021Z] REQUEST: GET /22131011093/favicon.ico | IP: ::1 | UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0. | Referrer: http://localhost:3000/22131011093 
+[2025-11-02T06:59:00.021Z] RESPONSE: GET /22131011093/favicon.ico | Status: 404 | Duration: 0ms | IP: ::1 
+[2025-11-02T06:59:00.021Z] REQUEST: GET /22131011093/manifest.json | IP: ::1 | UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0. | Referrer: http://localhost:3000/22131011093 
+[2025-11-02T06:59:00.022Z] RESPONSE: GET /22131011093/manifest.json | Status: 404 | Duration: 1ms | IP: ::1 
+[2025-11-02T06:59:00.190Z] REQUEST: GET /22131011093/favicon.ico | IP: ::1 | UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0. | Referrer: http://localhost:3000/ 
+[2025-11-02T06:59:00.190Z] RESPONSE: GET /22131011093/favicon.ico | Status: 404 | Duration: 0ms | IP: ::1 
+[2025-11-02T06:59:00.191Z] REQUEST: GET /22131011093/manifest.json | IP: ::1 | UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0. | Referrer: http://localhost:3000/ 
+[2025-11-02T06:59:00.191Z] RESPONSE: GET /22131011093/manifest.json | Status: 404 | Duration: 0ms | IP: ::1 
+[2025-11-02T06:59:05.975Z] REQUEST: POST /api/shorturls | IP: ::1 | UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0. | Referrer: http://localhost:3000/ 
+[2025-11-02T06:59:06.075Z] INFO: Short URL created {"shortCode":"p2yQOw5q","url":"https://google.com"}
+[2025-11-02T06:59:06.075Z] RESPONSE: POST /api/shorturls | Status: 201 | Duration: 100ms | IP: ::1 
+[2025-11-02T06:59:16.833Z] REQUEST: GET /p2yQOw5q | IP: ::1 | UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0. | Referrer: direct 
+[2025-11-02T06:59:16.923Z] INFO: URL redirect successful {"shortCode":"p2yQOw5q","originalUrl":"https://google.com","totalClicks":2}
+[2025-11-02T06:59:16.925Z] RESPONSE: GET /p2yQOw5q | Status: 302 | Duration: 92ms | IP: ::1 
