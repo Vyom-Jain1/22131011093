@@ -18,7 +18,8 @@ import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import axios from "axios";
 
 const MAX_URLS = 5;
-const API_URL = "/api/shorturls";
+// const API_URL = "/api/shorturls";
+const API_URL = "https://urlshortner-1zx7.onrender.com/api/shorturls";
 
 const initialForm = {
   originalUrl: "",
@@ -235,12 +236,15 @@ function ShortenPage() {
                         <Typography
                           variant="body2"
                           sx={{ wordBreak: "break-all" }}>
-                          <b>Short URL:</b> {form.result.shortUrl}
+                          {/* <b>Short URL:</b> {form.result.shortUrl} */}
+                          <b>Short URL:</b> {`https://urlshortner-1zx7.onrender.com/${form.result.shortCode}`}
                         </Typography>
                         <Tooltip title="Copy">
                           <IconButton
                             size="small"
-                            onClick={() => handleCopy(form.result.shortUrl)}
+                            // onClick={() => handleCopy(form.result.shortUrl)}
+                            onClick={() => handleCopy(`https://urlshortner-1zx7.onrender.com/${form.result.shortCode}`)}
+
                             sx={{ ml: 1 }}>
                             <ContentCopyIcon fontSize="small" />
                           </IconButton>

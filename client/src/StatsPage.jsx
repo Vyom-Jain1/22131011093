@@ -19,7 +19,9 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import axios from "axios";
 
-const API_URL = "/api/shorturls";
+// const API_URL = "/api/shorturls";
+const API_URL = "https://urlshortner-1zx7.onrender.com/api/shorturls";
+
 
 function StatsPage() {
   const [urls, setUrls] = useState([]);
@@ -86,15 +88,27 @@ function StatsPage() {
                     spacing={2}
                     alignItems="center"
                     width="100%">
-                    <Typography
+                    {/* <Typography
                       variant="subtitle1"
                       sx={{ flexGrow: 1, wordBreak: "break-all" }}>
                       {url.shortUrl}
-                    </Typography>
+                    </Typography> */}
+
+                      <Typography variant="subtitle1" sx={{ flexGrow: 1, wordBreak: "break-all" }}>
+  {`https://urlshortner-1zx7.onrender.com/${url.shortCode}`}
+</Typography>
+
+
+
                     <Tooltip title="Copy short URL">
                       <IconButton
                         size="small"
-                        onClick={() => handleCopy(url.shortUrl)}>
+                        // onClick={() => handleCopy(url.shortUrl)}
+                        onClick={() => handleCopy(`https://urlshortner-1zx7.onrender.com/${url.shortCode}`)}
+                        
+                        >
+
+                          
                         <ContentCopyIcon fontSize="small" />
                       </IconButton>
                     </Tooltip>
